@@ -1,0 +1,160 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+nav{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	position: fixed;
+	top:0px;
+	box-shadow: 0 3px 12px 0 rgb(50,150,255);
+}
+nav ul{
+	list-style-type: none;
+	text-align:left;
+	background-color: rgb(2,20,120);
+	margin:0px;
+	padding: 0px;
+}
+nav ul li
+{
+	display:inline-block;
+}
+ nav ul li a
+{
+	text-decoration: none;
+	display: block;
+	font-family: Copperplate Gothic Light;
+	color: rgb(255,255,255);
+	padding: 14px 20px;
+	margin:0;
+	transition: background-color 0.3s linear;
+
+}
+nav ul li a:hover
+{
+	background-color: rgb(255,255,255);
+	color: rgb(2,20,120);
+}
+li.al_right{
+	float:right;
+}
+.head{
+	background-image: url("../images/back header.jpg");
+	padding: 25px 10px 5px 60px;
+	margin: 0px;
+	position: fixed;
+	width:100%;
+	text-align :center;
+	font-size: 30px;
+	height: 140px;
+	color: white;
+	font-family: "Arial Rounded MT Bold";
+	text-shadow: 6px 4px 5px rgb(110,110,110);
+}
+.h1{
+	padding:0px;
+	margin:0px;
+}
+.filters{
+	margin:0px;
+	margin-top:12.5%;
+	padding:10px;
+	background-image: url("../images/wg.jpg");
+	display:inline-block;
+	font-size: 17px;
+	overflow: auto;
+	position:fixed;
+	height: 100%;
+	width: 15%;
+	box-sizing: border-box;
+}
+.filters p{
+	margin: 0px;
+	padding-top: 10px;
+	font-size: 17px;
+}
+.main_nav{
+	background-color: rgb(2,20,120);
+	position: fixed;
+	top: 25.8%;
+	left:15%;
+	width:100%;
+}
+.dropbtn {
+	background-color: rgb(2,20,120);
+	font-family: Copperplate Gothic Light;
+	color: rgb(255,255,255);
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+	transition: background-color 0.3s linear;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(240,240,240);
+    min-width: 150px;
+    box-shadow: 0 3px 12px 0 rgb(50,150,255);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	transition: background-color 0.3s linear;
+}
+
+.dropdown-content a:hover {background-color: rgb(200,200,200);}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(255,255,255);
+	color: rgb(2,20,120);
+}
+a {
+text-align:left;
+}
+
+.main{
+	margin-left: 15%;
+	padding-top: 250px;
+	background-image: url("../images/bg.jpg");
+}
+
+.img_box{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 100px;
+}
+
+.img_box img{
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+.img_box img:hover{
+	border: 2px solid rgb(240,170,0);
+}
+
+.img_box p{
+	text-align: center;
+	color: white;
+	font-family: Copperplate Gothic Light;
+	cursor: pointer;
+}
+
+.pd_left{
+	padding-left: 130px;
+}

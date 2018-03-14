@@ -1,0 +1,122 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+nav{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	position: fixed;
+	top:0px;
+	box-shadow: 0 3px 12px 0 grey;
+}
+nav ul{
+	list-style-type: none;
+	text-align:left;
+	background-color: rgb(2,20,120);
+	margin:0px;
+	padding: 0px;
+}
+nav ul li
+{
+	display:inline-block;
+}
+ nav ul li a
+{
+	text-decoration: none;
+	display: block;
+	font-family: Copperplate Gothic Light;
+	color: rgb(255,255,255);
+	padding: 14px 20px;
+	margin:0;
+	transition: background-color 0.3s linear;
+
+}
+nav ul li a:hover
+{
+	background-color: rgb(255,255,255);
+	color: rgb(2,20,120);
+}
+li.al_right{
+	float:right;
+}
+.heading{
+	background-image: url("../images/bg.jpg");
+	padding:80px;
+	text-align: center;
+}
+h1{
+	font-size: 50px;
+	font-family: "Arial Rounded MT Bold";
+	text-shadow: 6px 7px 5px grey;
+}
+.st_button{
+	text-decoration: none;
+	color: white;
+	font-size: 22.5px;
+	padding: 15px 25px;
+	border: white 2px solid;
+	border-radius: 5px;
+	display:inline-block;
+	transition: all 0.5s;
+}
+.st_button:hover{
+	border: white 2px solid;
+	color: rgb(2,20,120);
+	background-color: rgb(255,255,255);
+}
+.section{
+	padding: 40px;
+	clear: both;
+}
+.section2{
+	clear: both;
+	padding: 40px;
+	background-image: url("../images/bg.jpg");
+}
+.sechead{
+	padding: 20px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	font-family: "Times New Roman";
+	text-align: center;
+	text-shadow: 6px 7px 5px grey;
+}
+.lstext{
+	width: 30%;
+	display:inline-block;
+	padding-right: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+.cstext{
+	width: 30%;
+	padding-right: 50px;
+	display:inline-block;
+	text-align: center;
+	font-size: 25px;
+}
+.rstext{
+	width: 30%;
+	display:inline-block;
+	text-align: center;
+	font-size: 25px;
+}
+.img{
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.img img{
+	border-radius: 4px;
+	width: 350px;
+}
+.img_desc{
+	text-align: center;
+	padding: 10px;
+	margin:0px;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}

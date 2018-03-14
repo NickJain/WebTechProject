@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" href="stylesheets/login.css" type="text/css">
+</head>
+<body background-color="rgb(247,247,247)">
+<nav>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/shopping.html">Shopping Area</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">About Us</a></li>
+		<li class="al_right"><a href="#">Login/Sign Up</a></li>
+	</ul>
+</nav>
+<div id="wrapper">
+  <div id="toregister" class="animate form">
+			<form  action="/reg_data" autocomplete="on" method="post">
+				<h1> Sign up </h1>
+				<p>
+					<label for="user" class="uname">Your username</label>
+					<input id="usernamesignup" name="user" required="required" type="text" placeholder="mysuperusername690" />
+				</p>
+				<p>
+					<label for="email" class="youmail"> Your email</label>
+					<input id="emailsignup" name="email" required="required" type="email" placeholder="mysupermail@mail.com"/>
+				</p>
+				<p>
+					<label for="password" class="youpasswd" >Your password </label>
+					<input id="passwordsignup" name="password" required="required" type="password" placeholder="eg. X8df!90EO"/>
+				</p>
+				<p>
+					<label for="passwordsignup_confirm" class="youpasswd">Please confirm your password </label>
+					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+				</p>
+				<p class="signin button">
+					<input type="submit" value="Sign up"/>
+				</p>
+				<p class="change_link">
+					Already a member ?
+					<a href="login.html" class="to_register"> Go and log in </a>
+				</p>
+			</form>
+		</div>
+<div/>
+</body>
+</html>

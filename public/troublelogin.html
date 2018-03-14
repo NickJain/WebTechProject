@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheets/trouble.css" type="text/css">
+<title>TroubleLogIn</title>
+<link rel="icon" href="images/trouble.jpg" type="image/jpg">
+<script src="C:\Users\Aayush\Desktop\Required files for webtech\jquery-3.1.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#show").hide();
+    $("#clicker").click(function(){
+        $("#show").toggle();
+    });
+});
+</script>
+</head>
+<body>
+<div id="form">
+<form onreset=myfun>
+<fieldset class="border">
+<Legend><img id="trouble" src="images/confused.jpg"></Legend>
+<br><br>
+<p>Enter your Email ID</p>
+<label for="z" style="font-weight:bold;font-size:20px;	">Email ID</label>
+<br>
+<input size="35" type="text" id="z">
+<br><br><br>
+<div id="show"><p id="demo">We will email you instructions on how to reset your password.</p>
+<br>
+</div>
+<br><br>
+<input type="button" id="clicker" class="button button1" value="Reset Password">
+
+<a href="/signup.html">Retry to Login</a>
+<br><br><br><br>
+</fieldset>
+</form>
+</div>
+<script>
+function myfunc(){
+var str = "We have emailed a link to your email id.";
+document.getElementById("demo").innerHTML = str;
+}
+
+function func(){
+
+}
+</script>
+</body>
+</html>
